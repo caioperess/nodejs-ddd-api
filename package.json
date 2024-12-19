@@ -1,0 +1,26 @@
+{
+	"name": "04-clean-ddd",
+	"type": "module",
+	"version": "1.0.0",
+	"description": "",
+	"main": "index.js",
+	"scripts": {
+		"lint": "biome check --write src",
+		"test": "vitest run --dir src"
+	},
+	"keywords": [],
+	"author": "",
+	"license": "ISC",
+	"devDependencies": {
+		"@biomejs/biome": "1.9.3",
+		"@types/node": "^22.7.5",
+		"tsup": "^8.3.0",
+		"tsx": "^4.19.1",
+		"typescript": "^5.6.3",
+		"vite-tsconfig-paths": "^5.0.1",
+		"vitest": "^2.1.2"
+	},
+	"dependencies": {
+		"dayjs": "^1.11.13"
+	}
+}
